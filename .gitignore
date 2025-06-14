@@ -1,0 +1,10 @@
+# source
+ba.h
+
+# build
+*.o
+*.ko
+.*.cmd
+.*.mod*
+modules.order
+Module.symvers
