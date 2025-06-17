@@ -16,7 +16,7 @@ MODULE_DESCRIPTION("Prints Bad Apple with Linux Kernel");
 const char * const BOUNDARY_SEQUENCE = "\033[2J\033[H";
 #define BOUNDARY_SEQUENCE_LEN (sizeof(BOUNDARY_SEQUENCE) - 1)
 
-#define FRAMES_PER_SECOND 24
+#define FRAMES_PER_SECOND 30
 // 计算每帧的毫秒延迟
 #define DELAY_MS_PER_FRAME (1000 / FRAMES_PER_SECOND)
 
