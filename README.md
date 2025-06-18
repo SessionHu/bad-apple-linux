@@ -6,7 +6,7 @@
 
 - Use FFmpeg to generate frames in PNG
 
-- Use `jp2a` and pipe outputs to `ba.asc`
+- Use `jp2a` and redirect outputs to `ba.asc`
 
 - Use `xxd` to generate `ba.h`
 
@@ -23,6 +23,8 @@ sudo make install
 ```
 
 ## Enjoy
+
+> You may need remove `quiet` from linux boot command to watch module outputs.
 
 ```sh
 sudo reboot
